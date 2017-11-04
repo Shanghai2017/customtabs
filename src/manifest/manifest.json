@@ -1,0 +1,34 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.4/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.4",
+  "id": "3865925f-3c5c-6924-6362-83548d9312d8",
+  "version": "0.0.1",
+  "developer": {
+    "name": "microsoft",
+    "websiteUrl": "https://customtabs.azurewebsites.net",
+    "privacyUrl": "https://customtabs.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://customtabs.azurewebsites.net/tou.html"
+  },
+  "tabs": [
+    {
+      "id": "cbc7eda9-1d63-5f8f-01ea-33665d80c8fe",
+      "name": "office365devdays",
+      "description": {
+        "short": "Add a short description for office365devdays here",
+        "full": "Add a longer description for office365devdays here"
+      },
+      "icons": {
+        "44": "https://customtabs.azurewebsites.net/assets/tab-44.png",
+        "88": "https://customtabs.azurewebsites.net/assets/tab-88.png"
+      },
+      "accentColor": "#223344",
+      "configUrl": "https://customtabs.azurewebsites.net/office365DevdaysConfig.html",
+      "canUpdateConfig": true
+    }
+  ],
+  "bots": [],
+  "needsIdentity": false,
+  "validDomains": [
+    "customtabs.azurewebsites.net"
+  ]
+}
